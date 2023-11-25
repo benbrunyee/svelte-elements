@@ -33,7 +33,8 @@
 
 <button
   bind:this={button}
-  class="relative rounded-full overflow-hidden py-3 px-8 font-['Syne'] font-bold transition-all duration-[400ms] group hover:scale-x-[98%] ease-out"
+  class="relative rounded-full overflow-hidden py-3 px-8 font-['Syne'] font-bold transition-all duration-[400ms] group hover:scale-x-[98%] ease-out {$$props.class}"
+  {...$$restProps}
 >
   <FadingUpText {button} class="z-[1]"><slot /></FadingUpText>
   <div
