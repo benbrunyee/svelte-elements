@@ -5,7 +5,7 @@
 @font-face {
   font-family: "Familjen Grotesk";
   font-style: normal;
-  font-weight: 100;
+  font-weight: 100, 200, 300, 400, 500, 600, 700, 800, 900;
   font-display: swap;
   src: url("/fonts/FamiljenGrotesk-VariableFont_wght.ttf") format("truetype");
 }
@@ -13,7 +13,7 @@
 @font-face {
   font-family: "Space Grotesk";
   font-style: normal;
-  font-weight: 100;
+  font-weight: 100, 200, 300, 400, 500, 600, 700, 800, 900;
   font-display: swap;
   src: url("/fonts/SpaceGrotesk-VariableFont_wght.ttf") format("truetype");
 }
@@ -21,7 +21,39 @@
 @font-face {
   font-family: "Syne";
   font-style: normal;
-  font-weight: 100;
+  font-weight: 100, 200, 300, 400, 500, 600, 700, 800, 900;
   font-display: swap;
   src: url("/fonts/Syne-VariableFont_wght.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Onest";
+  font-style: normal;
+  font-weight: 100, 200, 300, 400, 500, 600, 700, 800, 900;
+  font-display: swap;
+  src: url("/fonts/Onest-VariableFont_wght.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Cormorant";
+  font-style: normal;
+  font-weight: 100, 200, 300, 400, 500, 600, 700, 800, 900;
+  font-display: swap;
+  src: url("/fonts/Cormorant-VariableFont_wght.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Cormorant";
+  font-style: italic;
+  font-weight: 100, 200, 300, 400, 500, 600, 700, 800, 900;
+  font-display: swap;
+  src: url("/fonts/Cormorant-Italic-VariableFont_wght.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Londrina";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url("/fonts/LondrinaOutline-Regular.ttf") format("truetype");
 }

@@ -19,7 +19,7 @@
   ></div>
   <div
     bind:this={iconContainer}
-    class="absolute top-1/2 -translate-y-1/2 rounded-full h-[calc(100%-6px)] bg-neutral-700 border-[3px] border-transparent z-20"
+    class="absolute top-1/2 aspect-square -translate-y-1/2 rounded-full h-[calc(100%-6px)] bg-neutral-700 border-[3px] border-transparent z-20"
   >
     <div class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
       <slot name="icon" />
@@ -27,7 +27,7 @@
   </div>
   <div
     bind:this={textContainer}
-    class="bg-neutral-700 rounded-full py-2 px-8 text-white font-['Syne'] whitespace-nowrap"
+    class="bg-neutral-700 rounded-full py-2 pr-8 pl-[72px] text-white font-['Syne'] whitespace-nowrap"
   >
     <slot />
   </div>
